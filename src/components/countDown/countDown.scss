@@ -1,0 +1,28 @@
+.countDown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(205, 183, 207);
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h1 {
+      padding: 0.8rem;
+      color: #ff5e00;
+      font-size: 2.5rem;
+    }
+    section {
+      background-color: rgb(129, 2, 129);
+      display: flex;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+
+  .close-icon {
+    cursor: pointer;
+  }
+}

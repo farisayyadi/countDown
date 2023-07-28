@@ -1,0 +1,17 @@
+.time {
+  color: #fff;
+  display: flex;
+
+  span {
+    padding: 0 5px;
+
+    p {
+      margin: 0;
+    }
+    small {
+      background-color: #ff5e00;
+      box-shadow: 0px 0px 2px 1px #555454;
+      padding: 2px;
+    }
+  }
+}
